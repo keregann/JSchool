@@ -1,0 +1,49 @@
+Toate aplicatiile si proiectele trebuie sa fie bine structurate, sa aiba sintaxa corecta, logica optimala, aranjare textului dupa standardele java, comentarii in cod si validari. De folosit orice materiale disponibile carti, forumuri, tutoriale insa de rezolvat de sine statator. Inainte de a da intrebarea cuiva cauta pe google si forumuri. Idea este de a dezvolta un sistem personal de solutionare a problemelor in java. Practicind multe exemple sa maresti eficienta si complexitatea. Daca specificatia aplicatiei nu contine destule detalii ele trebuie clarificate cu clientul sau lasate la discretia programatorului in alegerea solutiei optime.
+(keyb) introdus de la tastatura
+(scr) desenat la ecran
+(var) pastrat in memoria programului intro variabila
+
+Lab 0 
+Notepad:
+1. De facut un program care declara variabile de toate tipurile din java initializate cu o valoare. In main incrementeaza si decrementeaza valorile lor si le afiseaza la ecran (scr)
+Ideie:
+	shot s = 3;
+	String cuvint = "hello";
+	...
+2. De facut un program care citeste de la tastatura variabile de diferite tipuri de numere si text si le transmite unei metode cu numele Print100() care le printeaza (scr) variabila (keyb) de 100 de ori prin for sau while separate prin virgula si la urma pune punct.
+Ideie:
+	float f;
+	Scanner s = new Scanner(System.in);
+	f = s.nextFloat();
+	System.out.println(f);
+	...
+	for(int i=0; i<100; i++) 
+	{ 	... printeaza ... 	}
+	...
+	i=0;
+	while(i<100){ 
+	...printeaza...; 
+	i++; }
+
+Notepad++ or UltraEdit
+3. De facut un program care contruieste obiecte de tip Integer (nu int) si 10 de tip Long (nu long). De construit 2 liste: ArrayList<Integer>  si ArrayList<Long> unde obiectele create anterior vor fi adaugate. Sa se printeze (scr) toate elementele listelor.
+	Integer i = new Integer(7);
+	List<Integer> listaDeInteger = new ArrayList();
+	listaDeInteger.add(i);
+	...
+	for(Integer i : listaDeInteger) {
+		printeaza(i);
+		...
+	}
+4. De facut un program care printeaza ora curenta la fiecare 5 secunde. 
+	Ideie:
+	Se foloseste clasele Date si SimpleDateFormat.
+5. De facut un program care calculeaza suma, media aritmetica, media geometrica, numarul minim si maximum al unui sir de numere introdus de la tastatura (key). Se foloseste array unidimensional.
+	Ideie:
+	int[] a;
+	int suma = 0;
+	for(int i=0; i< a.length; i++)
+	{
+		suma+=a[i];
+	}
+

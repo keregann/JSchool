@@ -1,0 +1,12 @@
+LAB1. 
+1. De facut un calculator de numere de la -1000000 ... +1000000 de la tastatura (keyb) si poate lucra cu numere zecimale care permite operatii 
+aritmetice: +, -, *, impartirea cu zecimale, impartirea cu rest, rotungire la intreg si la 1, 2, 3 zecimale
+algebrice: putere, radical, logaritm zecimal, natural, si in baza specifica (keyb) exponenta, 
+trigonometrice: sin, cos, tg, ctg, 
+pe biti: |, &, >>, << (doar numerele intregi)
+programul are un meniu realizat cu ajutorul operatiei switch care permite alegerea categoriei si tipului operatiei.
+
+2. De facut o aplicatie care calculeaza si care transforma (keyb) radiani/grade, metri/mile, ani/luni/zile/ore/min/sec/sutimi, grade celsius/fahrenheit/kelvin, lei/euro/dolar/1g.aur, litri/cm3. De facut un meniu care permite selectarea tipului de conversie si unitatea din care se face transformarea dupa care se afiseaza celelalte unitati.
+
+3. De facut o aplicatie care printeaza textul introdus de la tastatura (keyb) si/sau pastrat intro constata in cod, la afisare fiecare cuvint sa fie inversat si arate statisticile cu frecventa de aparitie a fiecarui simbol din text si a spatiilor inclusiv.
+

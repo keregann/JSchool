@@ -1,0 +1,8 @@
+
+LAB2.
+1. De facut o aplicatie care citeste un numar (keyb) si determina din carui tip primitiv apartine (int, byte, long samd). De verificat toate tipurile pentru numere pe care Java le suporta.
+2. De facut o aplicatie care printeaza (scr) dintrun text (keyb) toate propozitiile in ordine inversa. De adaugat optiunea de a utiliza un text predefinit (var) 
+3. De facut o ancheta care valideaza datele introduse (keyb) si accepta doar datele corecte (validare dupa virsta, validarea formatului numelor si a cuvintelor). In caz ca datele sunt introduse corect sa le afiseaza (scr) intro forma de tabel. De facut posibil salvarea in memorie (var) a minim 10 anchete si revizualizarea lor ulterioara si introducerea partiala a datelor si editarea datelor introduse mai devreme.
++------+---------+--------+---------------+---------+---------------+------------------+
+| Nume | Prenume | Virsta | Data nasterii | telefon | starea civila | adresa domiciliu |
++------+---------+--------+---------------+---------+---------------+------------------+

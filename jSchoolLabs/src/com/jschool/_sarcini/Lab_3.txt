@@ -1,0 +1,10 @@
+LAB3.
+1. De facut un proiect care consta din clasele cat, dog, mouse care mostenesc (extends) de la Animal proprietatile age, name si rescriu (override) functiile (metods) walk, run, si say. Toate clasele se afla in package com.java4fun.inheritance.animals
+
+			Animal
+ --------------------------
+ |			 |			  |
+Dog			Cat			Mouse
+
+
+2. De facut un proiect unde fiecare clasa reprezinta un machet de obiect geometric pentru o ierarhia tuturor obiectele geometrice cunoscute. Clasa de baza se numeste ObiectGeometric si are proprietatile (property): numarul de laturi, numarul de puncte si coordonatele lor si functia resize(int milimeters) care redimensioneaza toate laturile sau arcurile cu numarul de mm indicat. Clasa ObiectGeometric implementeaza interfata Drawable cu functia draw() care deseneaza obiectul (scrie un text specific obiectului) si rescrie metoda toString() care afiseaza toate proprietatile in urmatorul format: {property1_name:"property1_value",property2_name:"property2_value",...}. Toate clasele se afla in package com.java4fun.inheritance.geometry
