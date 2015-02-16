@@ -5,7 +5,7 @@ Toate aplicatiile si proiectele trebuie sa fie bine structurate, sa aiba sintaxa
 
 Lab 0 
 Notepad:
-1. De facut un program care declara variabile de toate tipurile din java initializate cu o valoare. In main incrementeaza si decrementeaza valorile lor si le afiseaza la ecran (scr)
+1. De facut un program care declara variabile de toate tipurile din java initializate cu o valoare. In main incrementeaza si decrementeaza valorile lor  si le afiseaza la ecran (scr)
 Ideie:
 	shot s = 3;
 	String cuvint = "hello";
@@ -26,7 +26,8 @@ Ideie:
 	i++; }
 
 Notepad++ or UltraEdit
-3. De facut un program care contruieste obiecte de tip Integer (nu int) si 10 de tip Long (nu long). De construit 2 liste: ArrayList<Integer>  si ArrayList<Long> unde obiectele create anterior vor fi adaugate. Sa se printeze (scr) toate elementele listelor.
+3. De facut un program care contruieste obiecte de tip Integer (nu int) si 10 de tip Long (nu long). De construit 2 liste: ArrayList<Integer> 
+si ArrayList<Long> unde obiectele create anterior vor fi adaugate. Sa se printeze (scr) toate elementele listelor.
 	Integer i = new Integer(7);
 	List<Integer> listaDeInteger = new ArrayList();
 	listaDeInteger.add(i);
