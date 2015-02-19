@@ -18,7 +18,7 @@ public class _1_DeclaratieVariabile {
 		String dog = "Bobik";
 		boolean sanatos = true;
 		boolean bolnav = false;
-		char c = '╔';
+		char c = '╚';
 		
 		// TODO: inc and dec la fiecare variabila
 		
