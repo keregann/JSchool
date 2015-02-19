@@ -1,4 +1,4 @@
-package com.jschool.lab0;
+package com.jschool.lab0_old;
 
 import java.util.Scanner; // Mai spune ca pt scanner mai treb  importate si clasa lui.... idreni feni :P
 

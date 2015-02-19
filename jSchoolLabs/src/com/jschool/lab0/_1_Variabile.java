@@ -1,5 +1,5 @@
 package com.jschool.lab0;
-public class _1_DeclaratieVariabile3 {
+public class _1_Variabile {
 	public static void main(String args[]) {
 		byte b = 1;
 		short s = 1000;

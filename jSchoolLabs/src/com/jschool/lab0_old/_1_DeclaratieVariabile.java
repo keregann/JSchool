@@ -1,4 +1,4 @@
-package com.jschool.lab0;
+package com.jschool.lab0_old;
 
 public class _1_DeclaratieVariabile {
 	
