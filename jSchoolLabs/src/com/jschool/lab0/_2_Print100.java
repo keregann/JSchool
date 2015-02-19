@@ -14,7 +14,7 @@ public class _2_Print100 {
 		x = sc.nextInt();
 		print100(x);
 		System.out.println(); // rind nou
-
+/*
 		float f;
 		System.out.println("Introduceti numar de tip \"float\" pentru afisare repetata: ");
 		f = sc.nextFloat();
@@ -34,6 +34,7 @@ public class _2_Print100 {
 			i++;
 		}
 		System.out.print("." + '\n');
+		*/
 	}
 	
 	static void print100(double numar){		
