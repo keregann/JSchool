@@ -1,0 +1,22 @@
+De scris explicatiile fiecarui termen (in scris ca in ex mai jos) si de explicat diferentele (oral):
+1. Declararea, definirea, initializarea, incrementarea si decrementarea, atributirea. (Declaration, definition, initialization, incrementation and decrementation, asign)
+	Declaration: You are declaring that something exists, such as a class, function or variable. You don't say anything about what that class or function looks like, you just say that it exists.
+	Definition: You define how something is implemented, such as a class, function or variable, i.e. you say what it actually is.
+	
+2. Bucla (latz), ciclu, iteratie, initializarea, incrementul, conditia de oprire, oprire fortata, continuare (Loop, cycle, iteration, initialization, increment or decrement, stop cycle condition, break, continue).
+
+3. Vector, matrice (tablou), element, pozitie (index), valoare, marime (lungime) (1,2 and N dimensional array, matrix, element, position (index), value, size (lenght))
+
+4. List, ArrayList, LinkedList, Set, Map, TreeSet,
+  
+5. Variabila, constanta, functie, metoda, procedura, proprietate, atribut, cimp (variable, constant, function, method, procedure, property, attribute, field)
+
+6. Clasa, Interfata, abstract, partial, structure, pattern, object, getter & setter, access level, public, private, protected.
+
+7. Alocare de memorie, static, dynamic, final, constructor, destructor.
+
+8. Parametru de intrare si iesire, argument, variabila, valoare, global, local, void.
+
+9. If/else, for, while, do/while, goto, label, switch/default.
+
+10. Exception, try, catch, finally.
