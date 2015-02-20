@@ -14,22 +14,19 @@ public class _2_Print100 {
 		Scanner sc = new Scanner(System.in);
 
 		int x;
-		System.out
-				.println("Introduceti numar de tip intreg pentru a fi afisat de 100 ori: ");
+		System.out.println("Introduceti numar de tip intreg pentru a fi afisat de 100 ori: ");
 		x = sc.nextInt();
 		print100(x);
 		System.out.println(); 
 
 		float f;
-		System.out
-				.println("Introduceti numar de tip zecimal pentru a fi afisat de 100 ori ");
+		System.out.println("\nIntroduceti numar de tip zecimal pentru a fi afisat de 100 ori: ");
 		f = sc.nextFloat();
 		print100(f);
 		System.out.println();
 
 		String s;
-		System.out
-				.println("Introduceti un sir de caractere pentru a fi afisat de 100 ori ");
+		System.out.println("\nIntroduceti un sir de caractere pentru a fi afisat de 100 ori: ");
 		s = sc.next();
 		print100string(s);
 		System.out.println();
@@ -39,7 +36,7 @@ public class _2_Print100 {
 	static void print100(double numar) {
 		int i = 0, n = 100;
 		while (i < n) {
-			System.out.print(i + ")" + " numar=" + numar);
+			System.out.print(i + ") numar=" + numar);
 			if (i < n - 1) {
 				System.out.print(", ");
 			} else {
@@ -52,7 +49,7 @@ public class _2_Print100 {
 	static void print100string(String cuvint) {
 		int i = 0, n = 100;
 		while (i < n) {
-			System.out.print(i + ")" + " cuvint=" + cuvint);
+			System.out.print(i + ") cuvint=" + cuvint);
 			if (i < n - 1) {
 				System.out.print(", ");
 			} else {
