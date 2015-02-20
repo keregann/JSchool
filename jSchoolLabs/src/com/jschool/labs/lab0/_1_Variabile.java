@@ -20,6 +20,16 @@ public class _1_Variabile {
 		boolean x = true;
 		boolean y = false;
 		
+		// what was expected
+		System.out.println("! " + i++);
+		System.out.println(s--);
+		System.out.println(l-=705-l);
+		System.out.println(f+=0.25);
+		System.out.println(d+=f);
+		System.out.println("! " + ( i++ + s) );		// intii se aduna valoare int a lui ch si se afiseaza, dupa asta i se incrementeaza
+		System.out.println("! " + ++i);			// intii se incrementaza apoi se afiseaza
+		System.out.println(s-ch+d);
+		
 		System.out.println(val + ch + b);
 		for (; b < 2; b++) {
 			System.out.println(incr + ch + b);
@@ -52,11 +62,11 @@ public class _1_Variabile {
 			System.out.println(incr + ch + l);
 		}
 		
-		for (; l > 999999999; l--) {
+	/*	for (; l > 999999999; l--) {
 			System.out.println(decr + ch + l);
 		}
 		System.out.println(val + ch + f);
-		
+		*/
 		for (; f < 2.4; f++) {
 			System.out.println(incr + ch + f);
 		}
