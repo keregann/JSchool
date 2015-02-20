@@ -1,4 +1,4 @@
-package com.jschool.lab0;
+package com.jschool.labs.lab0;
 public class _1_Variabile {
 	public static void main(String args[]) {
 		byte b = 1;
