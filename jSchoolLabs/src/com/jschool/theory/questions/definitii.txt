@@ -20,3 +20,5 @@ De scris explicatiile fiecarui termen (in scris ca in ex mai jos) si de explicat
 9. If/else, for, while, do/while, goto, label, switch/default.
 
 10. Exception, try, catch, finally.
+
+11. Biblioteca (library), package, *.jar, *.ear, *.java, *.class, *.obj, path, classpath, import

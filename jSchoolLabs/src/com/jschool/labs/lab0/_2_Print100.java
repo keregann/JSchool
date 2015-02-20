@@ -1,7 +1,11 @@
 package com.jschool.labs.lab0;
 
-import java.util.Scanner;
+/* De facut un program care citeste de la tastatura variabile de diferite tipuri de numere si text 
+ * si le transmite unei metode cu numele Print100() care le printeaza de 100 de ori 
+ * utilizind for sau while separate prin virgula si la urma pune punct.
+ */
 
+import java.util.Scanner;
 
 public class _2_Print100 {
 

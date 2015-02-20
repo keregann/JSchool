@@ -1,4 +1,10 @@
 package com.jschool.labs.lab0;
+
+/*
+ * De facut un program care declara variabile de toate tipurile din java initializate cu o valoare.
+ * In main se incrementeaza si decrementeaza valorile lor si le afiseaza la ecran (scr)
+*/
+
 public class _1_Variabile {
 	public static void main(String args[]) {
 		byte b = 1;
