@@ -1,7 +1,0 @@
-Ca manual de baza vom folosi OCA Java SE 7 Programmer I Certification Guide - MANNING (cea mai recomandata redactie pu cartile de programare), 
-la fiecare tema in caz de necesitate citesti din manualul suplimentar de la redactia PACKT.
-Linkurile cu download vezi in links.html
-
-De citit:
-1. Introduction - 30 min
-2. Java basics - 2-3 ore
