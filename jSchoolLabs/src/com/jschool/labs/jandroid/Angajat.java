@@ -2,9 +2,24 @@ package com.jschool.labs.jandroid;
 
 public class Angajat {
 	private String nume;
-	private int varsta;
+	private int virsta;
 	
-	// adauga getter si setter pu fiecare field
+	public String getNume() { // adauga getter si setter pu fiecare field
+		return nume;
+	}
+	public void setNume(String nume) {
+		this.nume = nume;
+	}
+	public int getVirsta() {
+		return virsta;
+	}
+	public void setVirsta(int virsta) {
+		this.virsta = virsta;
+	}
+	
+	
+	
+	
 
 	// de creat clasele dupa exemplul cu am creat Director
 	/*Director:
