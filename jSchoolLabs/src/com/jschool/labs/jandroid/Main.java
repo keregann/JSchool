@@ -7,11 +7,14 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		// sterge toate comenturile care nu mai sunt necesare din cod ca si asa mult text
+		
+		Meniu();
 
 	}
 	
-	private void Meniu () { 
+	static private void Meniu () { 
 	
 		 Scanner sc = new Scanner(System.in);
 		 Companie companie = new Companie();
@@ -25,10 +28,12 @@ public class Main {
 		    long codFiscal = sc.nextLong();
 		    companie.setCodFiscal(codFiscal);
 		    
+		    sc.reset();		    
 		    System.out.println("\n 3. Tipul Companiei: ");
 		    System.out.println("\nIntroduceti Tipul Companiei");
-		    CompanyType = sc.nextLine(); //??????CUm de introdus de la tastatura valorile unui enum??????
-		    companie.setCompanyType(tipCompanie);
+		    String ct = sc.next(); // aici e cazul cin nextLine() nu lucreaza cum trebu si folosesti next()
+		    companie.setCompanyType(CompanyType.valueOf(ct));		// in asa mod introduci de la tastatura IT, FINANCIARA, MEDICALA, TRANSPORT
+		    // sau poti sa faci un meniu aparte cu switch pu selectarea tipului de companie cu 1,2,3,4 care corespund cu tipurile de mai sus		    
 		    
 		    System.out.println("\n 4. Numarul de angajati: ");
 		    System.out.println("\nIntroduceti Numarul de angajati"); //??????Numarul il setam noi drept conditie  sau el se genereaza din lista?????
@@ -72,7 +77,7 @@ public class Main {
 		    
 	}
 	
-	private List<Angajat> genereazaListaAngajati(CompanyType ct) {
+	static private List<Angajat> genereazaListaAngajati(CompanyType ct) {
 		List<Angajat> lista = new ArrayList<Angajat>();
 		switch (ct) {
 			case IT: { //???Conditia definirii numarului max sau min de angajati se face in acest case??? Daca da atunci cum corect sa definesc conditia????
@@ -190,8 +195,9 @@ public class Main {
 			m1.setSpecialitatea("ORL");
 		}
 		
-		return lista;	// returneaza lista cu toti angajatii creati
+		
 	   }
+		return lista;	// returneaza lista cu toti angajatii creati
 	}
 }
 
